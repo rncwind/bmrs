@@ -2519,6 +2519,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "katexit"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ccfb0b7ce7938f84a5ecbdca5d0a991e46bc9d6d078934ad5e92c5270fe547db"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
 name = "khronos-egl"
 version = "6.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3235,6 +3246,7 @@ dependencies = [
 name = "parser"
 version = "0.1.0"
 dependencies = [
+ "katexit",
  "strum 0.27.1",
  "strum_macros 0.27.1",
  "winnow",

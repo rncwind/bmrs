@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+katexit = "0.1.5"
 strum = "0.27.1"
 strum_macros = "0.27.1"
 winnow = "0.7.11"
